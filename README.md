@@ -20,31 +20,23 @@ $ cd Tersano
   - Create database at [https://cloud.mongodb.com](https://cloud.mongodb.com)
   - In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 
-### 4. Run Backend
+### 4. Run 
 
 ```
-$ cd backend
-$ npm install
+$ cd Tersano
+$ npm build
 $ npm start
 ```
 
-### 5. Run Frontend
 
-```
-# open new terminal
-$ cd frontend
-$ npm install
-$ npm start
-```
-
-### 6. Seed Users and Products
+### 5. Seed Users and Products
 
 - Run this on browser: http://localhost:4000/api/seed
 - Initiate products in the database
 
 
 
-### 7. Functions
+### 6. Functions
 
 - Sign up and sign in, you will find the initial products. Users can add and delete products.
 
