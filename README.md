@@ -1,6 +1,7 @@
+## Online
+pretty-muskox-national.ngrok-free.app
 
 ## Run Locally
-
 ### 0. Install node.js
 https://nodejs.org/en/download/current
 
@@ -27,8 +28,8 @@ $ cd Tersano
 
 ```
 $ cd Tersano
-$ npm build
-$ npm start
+$ npm install
+$ npm dev
 ```
 
 
@@ -40,6 +41,6 @@ $ npm start
 
 
 ### 6. Functions
-
+- Homepage: http://localhost:5173
 - Sign up and sign in, you will find the initial products. Users can add and delete products.
 
