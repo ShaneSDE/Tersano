@@ -20,6 +20,8 @@ productRouter.get(
   })
 )
 
+
+
 // /api/slug/tshirt
 productRouter.get(
   '/slug/:slug',
@@ -32,8 +34,6 @@ productRouter.get(
     }
   })
 )
-
-
 
 productRouter.delete('/slug/:slug', asyncHandler(async (req, res) => {
   const product = await ProductModel.findOneAndDelete({ slug: req.params.slug });

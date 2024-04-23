@@ -31,7 +31,8 @@ $ cd Tersano
 ```
 $ cd Tersano
 $ npm install
-$ npm dev
+$ npm run build
+$ npm start
 ```
 
 

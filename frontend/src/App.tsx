@@ -88,7 +88,7 @@ function App() {
       </header>
 
       <main>
-        <Container className="mt-3">
+        <Container className="mt-3" style={{ paddingBottom: '50px' }} >
           <Outlet />
         </Container>
       </main>
@@ -100,3 +100,4 @@ function App() {
 }
 
 export default App
+

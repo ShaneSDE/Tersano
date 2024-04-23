@@ -1,7 +1,6 @@
 import bcrypt from 'bcryptjs'
 import { User } from './models/userModel'
-import { Product } from './types/Product'
-// import { Product } from './models/productModel'
+import { Product } from './models/productModel'
 
 export const sampleProducts: Product[] = [
   {
@@ -45,19 +44,7 @@ export const sampleProducts: Product[] = [
     slug: 'nike-slim-pant',
     category: 'Pants',
     image: '../images/p4.jpg',
-    price: 178,
-    countInStock: 15,
-    brand: 'Nike',
-    rating: 4.5,
-    numReviews: 14,
-    description: 'high quality product',
-  },
-  {
-    name: 'Shane Pant',
-    slug: 'Shane',
-    category: 'Pants',
-    image: '../images/p4.jpg',
-    price: 101,
+    price: 78,
     countInStock: 15,
     brand: 'Nike',
     rating: 4.5,
@@ -81,7 +68,7 @@ export const sampleUsers: User[] = [
   },
   {
     name: 's',
-    email: 's@gmail.com',
+    email: 's@s.com',
     password: bcrypt.hashSync('ssssss'),
     isAdmin: false,
   },
