@@ -1,6 +1,9 @@
 
 ## Run Locally
 
+### 0. Install node.js
+https://nodejs.org/en/download/current
+
 ### 1. Clone repo
 
 ```
