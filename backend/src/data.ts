@@ -4,8 +4,8 @@ import { Product } from './models/productModel'
 
 export const sampleProducts: Product[] = [
   {
-    name: 'Nike Slim shirt',
-    slug: 'nike-slim-shirt',
+    name: 'Slim shirt',
+    slug: 'slim-shirt',
     category: 'Shirts',
     image: '../images/p1.jpg',
     price: 120,
@@ -16,8 +16,8 @@ export const sampleProducts: Product[] = [
     description: 'high quality shirt',
   },
   {
-    name: 'Adidas Fit Shirt',
-    slug: 'adidas-fit-shirt',
+    name: 'Fit Shirt',
+    slug: 'fit-shirt',
     category: 'Shirts',
     image: '../images/p2.jpg',
     price: 100,
@@ -28,8 +28,8 @@ export const sampleProducts: Product[] = [
     description: 'high quality product',
   },
   {
-    name: 'Lacoste Free Pants',
-    slug: 'lacoste-free-pants',
+    name: 'Free Pants',
+    slug: 'free-pants',
     category: 'Pants',
     image: '../images/p3.jpg',
     price: 220,
@@ -40,7 +40,7 @@ export const sampleProducts: Product[] = [
     description: 'high quality product',
   },
   {
-    name: 'Nike Slim Pant',
+    name: 'Slim Pant',
     slug: 'nike-slim-pant',
     category: 'Pants',
     image: '../images/p4.jpg',
@@ -54,18 +54,7 @@ export const sampleProducts: Product[] = [
 ]
 
 export const sampleUsers: User[] = [
-  {
-    name: 'Joe',
-    email: 'admin@example.com',
-    password: bcrypt.hashSync('123456'),
-    isAdmin: true,
-  },
-  {
-    name: 'John',
-    email: 'user@example.com',
-    password: bcrypt.hashSync('123456'),
-    isAdmin: false,
-  },
+
   {
     name: 's',
     email: 's@s.com',
