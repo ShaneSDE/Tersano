@@ -1,7 +1,7 @@
 ## Walkthrough on Youtube
 https://youtu.be/GNnGQPRSkRU
 ## Visit online
-https://pretty-muskox-national.ngrok-free.app
+https://tersano.onrender.com
 
 ## Run Locally
 ### 0. Install node.js
